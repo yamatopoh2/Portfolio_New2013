@@ -11,37 +11,37 @@ const data = [
   {
     Pid: 1,
     image: IMG1,
-    title: "Crypto Currency 1",
+    title: "Portfolio 1",
     demo: "https://dribbble.com",
   },
   {
     Pid: 2,
     image: IMG2,
-    title: "Crypto Currency 2",
+    title: "Portfolio 2",
     demo: "https://dribbble.com",
   },
   {
     Pid: 3,
     image: IMG3,
-    title: "Crypto Currency 3",
+    title: "Portfolio 3",
     demo: "https://dribbble.com",
   },
   {
     Pid: 4,
     image: IMG4,
-    title: "Crypto Currency 4",
+    title: "Portfolio 4",
     demo: "https://dribbble.com",
   },
   {
     Pid: 5,
     image: IMG5,
-    title: "Crypto Currency 5",
+    title: "Portfolio 5",
     demo: "https://dribbble.com",
   },
   {
     Pid: 6,
     image: IMG6,
-    title: "Crypto Currency 6",
+    title: "Portfolio 6",
     demo: "https://dribbble.com",
   },
 ]
@@ -51,7 +51,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        {data.map(({ Pid, image, title, github, demo }) => {
+        {data.map(({ Pid, image, title, demo }) => {
           return (
             <article key={Pid.toString()} className="portfolio__item">
               <div className="portfolio__item-image">

@@ -13,7 +13,7 @@ const data = [
     Pid: 1,
     image: IMG1,
     title: "Portfolio 1",
-    demo: "https://dribbble.com",
+    demo: "websites/DashBoard/index.html",
   },
   {
     Pid: 2,
@@ -99,6 +99,7 @@ class Port extends Component {
               )
             })}
           </div>
+
           <div className="swiper-pagination"></div>
         </div>
       </section>

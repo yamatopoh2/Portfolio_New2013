@@ -53,17 +53,14 @@ const WorkExperience = () => {
           <article className="workexperience__details">
             <div>
               <h4>
-                Flying Dragon Network Philippines Inc. (<em> 1 Year </em>)
+                Solaire (<em> 2023 - Present </em>)
               </h4>
 
-              <h5>Full Stack Web Developer</h5>
+              <h5>Frond-End Web Developer</h5>
 
               <small className="text-light">
-                I'm in charge of purchasing and deploying websites as well as
-                adding and maintaining all of the rummy websites, including the
-                PBN and the main ones. I also manage the server hosting in all
-                of the websites, the technical SEO, daily updates to the
-                sitemaps, indexing page, and the Graphics for the Rummy Website.
+                I'm responsible for designing the client-requested website,
+                which must be responsive in both mobile and desktop views.
               </small>
             </div>
           </article>
